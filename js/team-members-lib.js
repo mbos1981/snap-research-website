@@ -416,7 +416,7 @@ const teamMembersList = [
     subTitle: "Lead Research Scientist",
     researchAreas: "Computer Vision, Machine Learning, Deep Learning",
     backUrl: "../team/category/creative-vision.html",
-    imageUrl: "../../img-for-members/kfir.webp",
+    imageUrl: "../../img-for-members/Kfir_profile_pic.webp",
     description: `
     <p>Kfir is a Research Scientist and team lead in the Creative Vision group at Snap Research. His primary research focus lies in Generative AI for visual content, with a core objective of synthesizing novel visual effects that are impactful and meaningful to people’s day to day. Before joining Snap, Kfir was a Research Scientist at Google. His research led to publications in top conferences and journals, where some of his contributions in the field of generative AI include noteworthy works such as Prompt-to-Prompt and DreamBooth. Kfir earned his Ph.D from Tel-Aviv University, Israel.</p>
     `,
@@ -455,8 +455,24 @@ const teamMembersList = [
     <p>Yuwei Fang is a Senior Research Scientist in the Creative Vision Group at Snap Research. Before joining Snap, he was a Senior Applied Scientist from Microsoft Azure AI. His research interests are in Multimodal AI and Natural language processing. He received his master degree from Peking University.</p>
     `,
   },
-
-
+  
+  {
+    id: 312,
+    metaTitle: "",
+    metaDescription: `
+        `,
+    name: "Anil Kag",
+    authorNames: ["Anil Kag"],
+    email: "",
+    subTitle: "Research Scientist",
+    researchAreas: "Computer Vision, Machine Learning, Deep Learning",
+    backUrl: "../team/category/creative-vision.html",
+    imageUrl: "../../img-for-members/anil.webp",
+    description: `
+    <p>Anil Kag is a Research Scientist in the Creative Vision team at Snap Research. His research focuses on improving the resource efficiency of deep neural architectures, including better architectures and training algorithms and their applications in generative models. He earned his Ph.D. in Electrical Engineering from Boston University in 2023. Previously, he was a Research Fellow at Microsoft Research India.
+    In the past life, he worked as a Software Engineer at Microsoft India Development Center after finishing his B.Tech. in Computer Science and Engineering from the Indian Institute of Technology Guwahati in 2014.</p>
+    `,
+  },
 ];
 
 const emailForContact = "someemail@snap.com";
@@ -470,7 +486,7 @@ teamMembersList.forEach((teamMember) => {
 const teamMembersForTeamCategory = {
   computationalImaging: [0, 1, 2, 3, 4, 5, 6],
   userModelingAndPersonalization: [102, 103, 104, 106, 107, 109, 110, 111, 105],
-  creativeVision: [300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311],
+  creativeVision: [300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312],
   admin: [],
 
   get all() {
