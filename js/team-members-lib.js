@@ -7,12 +7,12 @@ const teamMembersList = [
     name: "Andrea Sornoza",
     authorNames: ["Andrea Sornoza"],
     email: "",
-    subTitle: "Program Manager",
+    subTitle: "Senior Program Manager",
     researchAreas: "Program Management",
     backUrl: "../team/category/computational-imaging.html",
     imageUrl: "../../img-for-members/andrea-sornoza.webp",
     description: `
-    <p>Andrea is a Program Manager who supports the Computational Imaging Research Lab. Before joining Snap Inc., she worked in operations and account management to oversee project development and deployment while building partner relationships. She holds a bachelor’s degree in Biology from Syracuse University.</p>
+    <p>Andrea serves as the Program Manager supporting efforts across Snap Research. Before joining Snap Inc., she worked in operations and account management to oversee project development and deployment while building partner relationships. She holds a bachelor’s degree in Biology from Syracuse University.</p>
     `,
   },
   {
@@ -24,7 +24,7 @@ const teamMembersList = [
     authorNames: ["Bing Zhou"],
     email: "",
     subTitle: "Senior Research Engineer",
-    researchAreas: "Computational Imaging",
+    researchAreas: "Computational Sensing, Mobile Sensing, Wearables",
     backUrl: "../team/category/computational-imaging.html",
     imageUrl: "../../img-for-members/Bing-Zhou.webp",
     description: `
@@ -39,12 +39,12 @@ const teamMembersList = [
     name: "Guru Krishnan",
     authorNames: ["Guru Krishnan", "Gurunandan Krishnan", "Gurunandan Krishnan Gorumkonda"],
     email: "",
-    subTitle: "Manager, Lead Research Engineer",
-    researchAreas: "Computational Imaging/Sensing, Computational Displays, Wearables, Computer Vision",
+    subTitle: "Senior Manager, Principal Research Engineer",
+    researchAreas: "Computational Sensing, Smart Displays, Computer Vision",
     backUrl: "../team/category/computational-imaging.html",
     imageUrl: "../../img-for-members/GuruK2019.webp",
     description: `
-    <p><p>Guru leads the Computational Imaging team. He focuses on computational imaging, photography, computer vision, and novel sensing and display paradigms. Before joining Snap Inc., Guru worked at Amazon, where he helped automate fulfillment and deliver multiple perception systems for robotics technologies. Guru earned a Master’s in Computer Science from Columbia University. <p>Learn more about his work&nbsp;<a href="http://www.gurukrishnan.com/"><u>here</u></a>.
+    <p><p>Guru leads the Computational Sensing team. His research interests include computational imaging, photography, computer vision, and novel sensing and display paradigms. Before joining Snap Inc., Guru worked at Amazon, where he helped automate fulfillment and deliver multiple perception systems for robotics technologies. Guru received his Master’s in Computer Science from Columbia University. <p>Learn more about his work&nbsp;<a href="http://www.gurukrishnan.com/"><u>here</u></a>.
     `,
   },
   {
@@ -55,7 +55,7 @@ const teamMembersList = [
     name: "Jian (James) Wang",
     authorNames: ["Jian Wang", "Jian (James) Wang"],
     email: "",
-    subTitle: "Senior Research Scientist",
+    subTitle: "Lead Research Scientist",
     researchAreas: "Computational Imaging, Computational Photography, Computer Vision",
     backUrl: "../team/category/computational-imaging.html",
     imageUrl: "../../img-for-members/JianWangNew.webp",
