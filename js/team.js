@@ -4,7 +4,7 @@ $(function () {
   const pathnamePage = window.location.pathname;
   const teamsCategory = {
     "computational-imaging": "computationalImaging",
-    "computational-social-science": "computationalSocialScience",
+    "user-modeling-and-personalization": "userModelingAndPersonalization",
     "creative-vision": "creativeVision",
     all: "all",
   };
@@ -26,14 +26,17 @@ $(function () {
   } else {
     categoryTeamMembers = teamMembersForTeamCategory.all;
   }
+  
   categoryTeamMembers = categoryTeamMembers.map((memberId) => {
     const members = teamMembersList.find((memner) => memner.id === memberId) || {};
-    return members.name
+    return members.authorNames
   });
-
+  
   publicationForCategory = publicationsList.filter((publication) => {
     return categoryTeamMembers.some((category) => {
-      return publication.authors.includes(category);
+      return category.some((name) => {
+        return publication.authors.includes(name);
+      });
     });
   });
 

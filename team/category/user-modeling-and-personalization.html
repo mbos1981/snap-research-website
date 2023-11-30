@@ -11,7 +11,7 @@
   <meta name="keywords" content="Snap Research, Snap, Snapchat Research, Snap Research Website, Snap, Research, Data Mining, Computer Vision, Snapchat, Snapchat Research, snap research" data-react-helmet="true">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/png" href="https://storage.googleapis.com/forbusiness-cms-assets/favicon.ico">
+  <link rel="shortcut icon" type="image/png" href="../../img/favicon.ico">
 
   <link rel="stylesheet" href="../../css/normalize.css">
   <link rel="stylesheet" href="../../css/bootstrap-grid.css">
@@ -42,7 +42,7 @@
       <div class="team--nav-menu dragscroll">
         <div class="team--nav-items ">
           <a class="team--nav-link " href="computational-imaging.html">Computational&nbsp;Imaging</a>
-          <a class="team--nav-link active" href="computational-social-science.html">Computational&nbsp;Social&nbsp;Science</a>
+          <a class="team--nav-link active" href="user-modeling-and-personalization.html">User&nbsp;Modeling&nbsp;&&nbsp;Personalization</a>
           <a class="team--nav-link " href="creative-vision.html">Creative&nbsp;Vision</a>
           <a class="team--nav-link " href="all.html">All</a>
         </div>
@@ -50,7 +50,7 @@
     </div>
 
     <h3 class="team--nav-h3 container">About Us</h3>
-    <p class="container">The Computational Social Science team’s mission is to develop novel methods to understand the world through behavior on Snapchat. Our team has researchers working in natural language processing, data mining, computer vision, and behavioral science. They work together in multidisciplinary projects to provide insights into human behavior that can improve the experience of the users on our platform.</p>
+    <p class="container">Our team develops innovative techniques for modeling user behavior, empowering our business partners to build world-class user-centric ML systems across Snap.  Our research interests span multiple areas including machine learning, data mining, graph modeling, behavioral science, and natural language processing. We also partner closely with engineering to solve challenging modeling problems at scale.
 
     <div class="team--group">
       <div class="container">
@@ -85,12 +85,36 @@
   <script src="../../js/handle-scroll-left.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
+  <!-- <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script> -->
 
+  <script type="text/javascript"> 
+    (function() {
+      // Import script
+      const modalScript = document.createElement('script');
+      modalScript.async = true;
+      modalScript.type = 'text/javascript';
+      modalScript.src = 'https://storage.googleapis.com/snap-marketing-web-component/StandaloneCookieModal.js';
+
+      document.head.append(modalScript);
+      // Run script
+      modalScript.onload = () => {
+        const modalContainer = document.createElement('div');
+        modalContainer.id = 'cookie-modal-container';
+        document.body.appendChild(modalContainer);
+        snapMarketingWeb.cookieModal({
+          // placeholder for component props
+          GAID: "UA-41740027-59",
+          GTMID: "",
+          backgroundType: 'White'
+        }, modalContainer);
+      }; 
+    })();
+  </script>
+  
   <script type="text/javascript">
     $(function () {
       const headerRoutes = {
@@ -98,7 +122,7 @@
           logo: '../../img/snap-logo.svg',
           fellowships: '../../fellowships.html',
           computationalImaging: '../../team/category/computational-imaging.html',
-          computationalSocialScience: '../../team/category/computational-social-science.html',
+          userModelingAndPersonalization: '../../team/category/computational-social-science.html',
           creativeVision: '../../team/category/creative-vision.html',
           allTeam: '../../team/category/all.html',
           publications: '../../publications.html',
@@ -127,7 +151,7 @@
         getEvents().slice(0,5));
 
       $('.team-members-container').loadTemplate("../../templates/components/team-member-card.html",
-        getMembersByIDs(teamMembersForTeamCategory.computationalSocialScience, '../../'));
+        getMembersByIDs(teamMembersForTeamCategory.userModelingAndPersonalization, '../../'));
 
     });
   </script>
